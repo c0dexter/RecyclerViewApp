@@ -3,7 +3,7 @@ package michaldobrowolski.pl.recyclerviewproject;
 /**
  * Created by c0dexter on 02.03.18.
  */
-// COMPLETED: Step #7: Add a class for manipulating the list_item on the view
+// COMPLETED: Step #7: Add a class model for RecyclerView
 public class ListItem {
     private String head;
     private String description;
