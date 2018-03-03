@@ -9,9 +9,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
- * Created by c0dexter on 02.03.18.
- */
+
 // COMPLETED: Step #10: Create an * Adapter * class
 // COMPLETED: Step #11: Extend this class by using a * ViewHolder *
 // COMPLETED: Step #12: As generic type enter <MyAdapter.ViewHolder> because MyAdapter will contain a ViewHolder class
@@ -26,8 +24,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     public MyAdapter(List<ListItem> listItems, Context context) {
         this.listItems = listItems;
         this.context = context;
-
-        // TODO: 5:33 make next steps
     }
 
     // COMPLETED: Step #15: Implement methods for adapter (Alt+Enter)

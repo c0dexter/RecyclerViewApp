@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?><!-- COMPLETED: Step #3: Create a new layout file which will be using for every singe element on the RecycleView -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
 
     <!-- COMPLETED: Step #4: In this case we will use a CardView for displaying an info -->
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_card_view">
 
         <!-- COMPLETED: Step #5: Design a CardView element, add elements which you would like to use -->
         <LinearLayout
-            android:orientation="vertical"
-            android:padding="@dimen/card_view_padding"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/card_view_padding">
 
             <!-- COMPLETED: Step #6: Add elements within CardView which you would like to use -->
             <TextView
