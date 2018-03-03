@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         //COMPLETED: Step #30: Add dummy data to listItems, in the future a specific data will be parsed from API
         for (int i = 0; i < 10; i++) {
             ListItem listItem = new ListItem(
-                    getString(R.string.dummy_data_heading) + (i + 1),
+                    getString(R.string.dummy_data_heading) + " " + (i + 1),
                     getString(R.string.dummy_data_desc)
             );
             listItems.add(listItem); //Add the dummy listItem to the listItems
